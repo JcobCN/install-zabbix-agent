@@ -1,8 +1,8 @@
 if [ ! $1 ]; then
-	    echo "参数1为空，则默认为 192.169.0.125"
-	        IP=192.169.0.125
-	else
-		    IP=$1
+	echo "参数1为空，则默认为 192.169.0.125"
+	IP=192.169.0.125
+else
+	IP=$1
 fi
 
 apt install zabbix-agent
